@@ -1,4 +1,14 @@
+# explore.py
+# Author: Ashley Parker
+# Module 13 Lab: First DataFrame — Retail Sales Explorer
 
+
+# Reflection
+# 1. A boolean filter allows me to select specific rows from a DataFrame based on a condition. For example, I can select only sales from the South region or sales with revenue greater than $1,000.
+#
+# 2. df["revenue"] returns a Series, which is a single column of data. df[["revenue"]] returns a DataFrame, even though it only contains one column. This matters when I need to keep the data in DataFrame format for additional operations.
+#
+# 3. I would choose pandas because it allows me to quickly filter, sort, calculate, and analyze thousands of rows of data without manually going through everything in Excel. It also makes it easier to repeat the same analysis on new datasets.
 
 
 print("---Exercise 1---")
